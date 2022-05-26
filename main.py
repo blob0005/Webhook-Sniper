@@ -64,7 +64,7 @@ while True:
         valid()
 while True:
     try:
-        delay = input("Enter Delay For Each Thread: ")
+        delay = input("Enter Delay For Each Thread (0=NONE): ")
         delay = float(delay)
         break
     except:
