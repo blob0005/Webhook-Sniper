@@ -1,5 +1,10 @@
 error = False
-
+try:
+    import os
+    from os import system
+    system("title " + "Webhook Sniper")
+except:
+    pass
 try:
     import requests
     import colorama
